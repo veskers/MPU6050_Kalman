@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\Scientific_3\MPU6050_Kalman_work /I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777 /I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis /I..\..\..\..\Scientific_3 /I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include /I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_boot /I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_lib /I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib /I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_lib\include">
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_tim.h" lastModified="15bf2454670">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="1617b758166">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1617b75855d">
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\source\Kalman.c" lastModified="1617b5f6131">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\Kalman.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="1617b757d7e">
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\Kalman.h" lastModified="15bf7671660">
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15abe5ccff0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1617b75a896">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\source\MPU6050.c" lastModified="15ab7568890">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\MPU6050.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1617b757d7e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15abe5cdf90">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="15b3394c700">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="1617b758156">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="1617b75cf76">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_tim.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\MPU6050.h" lastModified="1617b6d0bf1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_i2c.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1617b773b02">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\MPU6050.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\Kalman.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1617b75855d">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1617b757d5e">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1617b757d6e">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1617b758a40">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="1617b75855d">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1617b75982a">
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=MPU6050_Kalman_work.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\MPU6050_Kalman_work -TC:\CooCox\CoIDE\configuration\ProgramData\MPU6050_Kalman_work/link.ld -g">
+      <target file="MPU6050_Kalman_work.elf" lastModified="1617f5394a1">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1617b7732e4"/>
+         <source file="..\obj\main.o" lastModified="1617f5391ef"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1617b7737d6"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1617b7739e9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1617b773c6a"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="1617b773e8d"/>
+         <source file="..\obj\Kalman.o" lastModified="1617b7740b0"/>
+         <source file="..\obj\MPU6050.o" lastModified="1617b7742d3"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1617b774544"/>
+      </target>
+   </processor>
+</history>

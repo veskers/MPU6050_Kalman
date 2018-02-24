@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\Scientific_3\MPU6050_Kalman_work -I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777 -I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis -I..\..\..\..\Scientific_3 -I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\include -I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_boot -I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_lib -I..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib -I..\..\..\..\Scientific_3\MPU6050_Kalman_work\cmsis_lib\include">
+      <target file="MPU6050.o" lastModified="1617b7742d3">
+         <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\source\MPU6050.c" lastModified="15ab7568890"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1617b7739e9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1617b758a40"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1617b774544">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1617b75a896"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1617b773c6a">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1617b757d7e"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1617b7732e4">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1617b757d6e"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1617b773e8d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1617b75982a"/>
+      </target>
+      <target file="Kalman.o" lastModified="1617b7740b0">
+         <source file="..\..\..\..\..\..\Users\qwert\Desktop\Scientific\work_v1\777\cmsis_lib\source\Kalman.c" lastModified="1617b5f6131"/>
+      </target>
+      <target file="main.o" lastModified="1617f5391ef">
+         <source file="..\..\..\main.c" lastModified="1617b772f4a"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1617b7737d6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1617b757d5e"/>
+      </target>
+   </processor>
+</history>
